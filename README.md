@@ -26,7 +26,7 @@ The project demonstrates basic usage of Webpack plugins and loaders, modular Jav
    ```
 2. Start the development server:
    ```bash
-   npm webpack serve
+   npm run dev
    ```
 
 ## Folder Structure
