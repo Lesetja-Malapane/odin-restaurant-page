@@ -1,4 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
-    background-color: black;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    justify-items: end;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+}
+
+/* button {
+    background-color: ;
+} */
+
+
+#content {
+    justify-items: center;
+}
+
+
+#content h1, h2 {
+    font-family: "Great Vibes", cursive;
+    font-style: normal;
+    font-size: 2em;
+    word-spacing: 0.25em;
+}
+
+#description {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#content h1 {
+    font-size: 3em;
+    word-spacing: 0.3em;
 }
